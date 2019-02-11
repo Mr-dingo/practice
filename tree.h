@@ -30,7 +30,6 @@ public:
 private:
     
 private:
-
-    Node * m_root;
-    Node * m_current_node;
+    Node<T> * m_root;
+    Node<T> * m_current_node;
 };
