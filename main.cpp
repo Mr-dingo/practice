@@ -2,7 +2,6 @@
 #include "tree.h"
 int main(){
     Tree<int> t;
-
     RedBlackTree<int> rb_tree;
     rb_tree.insert(1);
     rb_tree.insert(10);
